@@ -31,7 +31,7 @@ func startAPI() {
 		Claims:     &controllers.UserLoginClaim{},
 		SigningKey: controllers.Secret,
 	}
-	r.Use(middleware.JWTWithConfig(jwtConf))
+	// r.Use(middleware.JWTWithConfig(jwtConf))
 
 	jwtConfQuery := jwtConf
 	jwtConfQuery.TokenLookup = "query:token"

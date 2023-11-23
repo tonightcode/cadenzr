@@ -14,7 +14,7 @@ import (
 )
 
 func withDb(cb func()) {
-	if err := db.SetupConnection(db.SQLITE, "file:memdb1?mode=memory&cache=shared"); err != nil {
+	if err := db.SetupConnection(db.MYSQL, "file:memdb1?mode=memory&cache=shared"); err != nil {
 		panic(err)
 	}
 

@@ -5,8 +5,9 @@ import (
 	"github.com/cadenzr/cadenzr/models"
 	"github.com/cadenzr/cadenzr/probers"
 
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestScan(t *testing.T) {
@@ -14,7 +15,7 @@ func TestScan(t *testing.T) {
 	Convey("Scan dir", t, func() {
 		//Demo audio file: '../media/demo/Curse the Day.mp3' downloaded from Jamendo
 
-		if err := db.SetupConnection(db.SQLITE, "file::memory:?mode=memory&cache=shared"); err != nil {
+		if err := db.SetupConnection(db.MYSQL, "file::memory:?mode=memory&cache=shared"); err != nil {
 			So(err, ShouldBeNil)
 		}
 

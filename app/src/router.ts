@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from 'Vue';
 import Router from 'vue-router';
 
 import Api from './Api';

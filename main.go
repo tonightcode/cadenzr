@@ -52,7 +52,7 @@ func main() {
 	}
 	log.SetLevel(logLevel)
 
-	if err := db.SetupConnection(db.SQLITE, config.Config.Database); err != nil {
+	if err := db.SetupConnection(db.MYSQL, config.Config.Database); err != nil {
 		log.Fatalf("Failed to create connection to database: %v", err)
 	}
 

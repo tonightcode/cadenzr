@@ -56,7 +56,7 @@
     import PubSub from './../PubSub';
     import {events as AudioPlayerEvents} from './../AudioPlayer';
     import player from '@/AudioPlayer';
-    import Vue from 'vue';
+    import Vue from 'Vue';
 
     interface AlbumComponent extends Vue {
                     album: Album;
