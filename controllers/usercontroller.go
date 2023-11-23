@@ -7,9 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/log"
-	"github.com/cadenzr/cadenzr/models"
+	"cadenzr/db"
+	"cadenzr/log"
+	"cadenzr/models"
+
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo"
 )

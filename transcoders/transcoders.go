@@ -4,7 +4,7 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/cadenzr/cadenzr/log"
+	"cadenzr/log"
 )
 
 type CodecType uint8

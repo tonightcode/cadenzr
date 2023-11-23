@@ -6,11 +6,12 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cadenzr/cadenzr/config"
-	"github.com/cadenzr/cadenzr/controllers"
-	"github.com/cadenzr/cadenzr/db"
+	"cadenzr/config"
+	"cadenzr/controllers"
+	"cadenzr/db"
 
-	"github.com/cadenzr/cadenzr/models"
+	"cadenzr/models"
+
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )

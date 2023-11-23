@@ -20,13 +20,13 @@ Installing
 
 Get the source code in your `$GOPATH`:
 
-    $ go get github.com/cadenzr/cadenzr
+    $ go get cadenzr
 
 Then go to the `app` directory and build all assets for the front-end:
 
     $ cd app; npm install; npm run build
 
-Back in the main Cadenzr folder (`$GOPATH/src/github.com/cadenzr/cadenzr`), build the project and run the web service:
+Back in the main Cadenzr folder (`$GOPATH/src/cadenzr`), build the project and run the web service:
 
     $ go build
     $ ./cadenzr

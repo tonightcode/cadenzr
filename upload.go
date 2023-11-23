@@ -6,8 +6,9 @@ import (
 
 	"net/http"
 
-	"github.com/cadenzr/cadenzr/log"
-	"github.com/cadenzr/cadenzr/scan"
+	"cadenzr/log"
+	"cadenzr/scan"
+
 	"github.com/labstack/echo"
 )
 

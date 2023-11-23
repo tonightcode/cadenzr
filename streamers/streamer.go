@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/cadenzr/cadenzr/models"
-	"github.com/cadenzr/cadenzr/transcoders"
+	"cadenzr/models"
+	"cadenzr/transcoders"
 )
 
 type Streamer interface {

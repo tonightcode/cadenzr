@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cadenzr/cadenzr/db"
+	"cadenzr/db"
 
 	"github.com/labstack/echo"
 	. "github.com/smartystreets/goconvey/convey"

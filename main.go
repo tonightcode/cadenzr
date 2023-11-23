@@ -7,13 +7,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cadenzr/cadenzr/config"
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/models"
-	"github.com/cadenzr/cadenzr/probers"
-	"github.com/cadenzr/cadenzr/scan"
+	"cadenzr/config"
+	"cadenzr/db"
+	"cadenzr/models"
+	"cadenzr/probers"
+	"cadenzr/scan"
 
-	"github.com/cadenzr/cadenzr/log"
+	"cadenzr/log"
 
 	_ "github.com/mattn/go-sqlite3"
 )

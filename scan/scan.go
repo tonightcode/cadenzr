@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/log"
-	"github.com/cadenzr/cadenzr/models"
-	"github.com/cadenzr/cadenzr/probers"
+	"cadenzr/db"
+	"cadenzr/log"
+	"cadenzr/models"
+	"cadenzr/probers"
 )
 
 var ScanDone = make(chan struct{})

@@ -4,10 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/log"
-	"github.com/cadenzr/cadenzr/models"
-	"github.com/cadenzr/cadenzr/streamers"
+	"cadenzr/db"
+	"cadenzr/log"
+	"cadenzr/models"
+	"cadenzr/streamers"
+
 	"github.com/jinzhu/gorm"
 	"github.com/labstack/echo"
 )

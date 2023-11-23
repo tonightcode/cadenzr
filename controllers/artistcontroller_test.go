@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/probers"
-	"github.com/cadenzr/cadenzr/scan"
+	"cadenzr/db"
+	"cadenzr/probers"
+	"cadenzr/scan"
 
 	"github.com/labstack/echo"
 	. "github.com/smartystreets/goconvey/convey"

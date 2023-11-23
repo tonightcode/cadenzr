@@ -4,8 +4,8 @@ github.com/badgerodon/ioutil v0.0.0-20150716134133-06e58e34b867 h1:nsDNoesoGwPzP
 github.com/badgerodon/ioutil v0.0.0-20150716134133-06e58e34b867/go.mod h1:Ctq1YQi0dOq7QgBLZZ7p1Fr3IbAAqL/yMqDIHoe9WtE=
 github.com/badgerodon/mp3 v0.0.0-20131117210644-75602a2d154c h1:DKmYaZqdDgbD0ic6dMe6OGGsqfYTupWJOiqWiNNIukY=
 github.com/badgerodon/mp3 v0.0.0-20131117210644-75602a2d154c/go.mod h1:85PTHg6Hbm5Nj1onNEfxx3nhIP7wko2Zn3EwRxAO8IQ=
-github.com/cadenzr/cadenzr v0.0.0-20170616202223-cab0b4b9526f h1:1ukyXe6ldcXg8oKcDDnV/1NPCyZ2rVTQ/uRo9SVReco=
-github.com/cadenzr/cadenzr v0.0.0-20170616202223-cab0b4b9526f/go.mod h1:gXqRSQKd9YHWRiLODNPbOQMkCAJNby6vQaC7zbigqUo=
+cadenzr v0.0.0-20170616202223-cab0b4b9526f h1:1ukyXe6ldcXg8oKcDDnV/1NPCyZ2rVTQ/uRo9SVReco=
+cadenzr v0.0.0-20170616202223-cab0b4b9526f/go.mod h1:gXqRSQKd9YHWRiLODNPbOQMkCAJNby6vQaC7zbigqUo=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/denisenkom/go-mssqldb v0.0.0-20191124224453-732737034ffd/go.mod h1:xbL0rPBG9cCiLr28tMa8zpbdarY27NDyej4t/EjAShU=

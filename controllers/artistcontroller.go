@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/log"
-	"github.com/cadenzr/cadenzr/models"
+	"cadenzr/db"
+	"cadenzr/log"
+	"cadenzr/models"
+
 	"github.com/labstack/echo"
 )
 

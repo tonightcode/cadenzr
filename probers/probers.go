@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strconv"
 
-	log "github.com/cadenzr/cadenzr/log"
+	log "cadenzr/log"
 )
 
 type AudioMeta struct {

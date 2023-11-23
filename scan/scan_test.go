@@ -1,9 +1,9 @@
 package scan
 
 import (
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/models"
-	"github.com/cadenzr/cadenzr/probers"
+	"cadenzr/db"
+	"cadenzr/models"
+	"cadenzr/probers"
 
 	"testing"
 

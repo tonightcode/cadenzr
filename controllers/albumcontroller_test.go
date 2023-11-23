@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cadenzr/cadenzr/db"
-	"github.com/cadenzr/cadenzr/models"
+	"cadenzr/db"
+	"cadenzr/models"
 
 	"github.com/labstack/echo"
 	. "github.com/smartystreets/goconvey/convey"
